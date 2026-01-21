@@ -4,7 +4,14 @@ let celsius = document.getElementById("celsius");
 let fh = document.getElementById("fh");
 
 function convert(){
-let input = Number(document.getElementById("mainInput").value);
+  const inputCheck = document.getElementById("mainInput");
+
+    if (!inputCheck.checkValidity()) {
+        result.textContent = "Please enter a number";
+        return;
+    }
+
+    const input = inputCheck.valueAsNumber
 
     if(celsius.checked){
         result.textContent = ((input- 32) * 5/9).toFixed(2) + ' °C';
@@ -15,6 +22,6 @@ let input = Number(document.getElementById("mainInput").value);
     
 
     else{
-        result.textContent = "choose an output";
+        result.textContent = "choose an output unit";
     }
 }
