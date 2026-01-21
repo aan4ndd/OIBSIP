@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+        <h3>Temperature Converter</h3>
+        <input type="number" id="mainInput" placeholder="            Enter your input">
+        <br>
+        <input type="radio" name="temp" id="celsius">
+        <label for="celsius">Fahrenheit to Celsius</label>
+            <br>
+        <input type="radio" name="temp" id="fh">
+        <label for="fh">Celsius to Fahrenheit</label>
+        <br>
+        <button id="submit" onclick="convert()">Convert</button>
+        <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    font-family: "Google Sans", sans-serif;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(172, 172, 172);
+    justify-content: center;
+    height: 100vh;
+}
+
+.content{
+    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+    text-align: center  ;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#mainInput{
+    height: 40px;
+    appearance: none;
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+label{
+    font-size: 20px;
+}
+#submit{
+    margin: 30px 0 20px 0 ;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+#celsius, #fh{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    accent-color: orange;
+}
+#result{
+    font-size: 35px;
+}
