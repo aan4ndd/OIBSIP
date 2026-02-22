@@ -22,6 +22,6 @@ function convert(){
     
 
     else{
-        result.textContent = "choose an output unit";
+        result.textContent = "Choose an output unit";
     }
 }
